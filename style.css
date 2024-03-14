@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     padding: 20px;
     margin: 20px;
@@ -127,16 +130,16 @@ video{
 
 .pablo{
     display: flex;
-    flex-wrap: wrap;
-    width: 70%;
+    /* flex-wrap: wrap; */
+    width: 100%;
     gap: 40px;
-    height: 400px;
-    justify-content: center;
+    height: 25em;
+    justify-content: space-between;
     margin: 30px 0px 30px 0px;
     border-radius: 20px;
     background-color: #B7B7B5;
-    flex-direction: column;
-    padding: 20px;
+    /* flex-direction: column; */
+    /* padding: 20px; */
     margin: auto;
     padding: auto;
       
@@ -144,12 +147,12 @@ video{
 
 }
 .pablo1{
-    
     width:50%;
-    height: 400px;
-    
-    
-    
+    height: 25em;
+}
+.pablo1.gauche{
+    padding: 2em;
+    width:45%;
 }
 .pablo span{
     color: #723cbd;
@@ -164,14 +167,15 @@ video{
     margin: 5px;
 }
 .pablo1.droit{
-    
-    
- 
+    position: relative;
+    /* background-color: palevioletred; */
 }
 
 .pablo1.droit img{
-   
-   
+    width: 100%;
+    position: absolute;
+    height: 30em;
+    top: -5em;
 }
 
 .para h1{
@@ -179,23 +183,19 @@ video{
    padding-left: 150px;
 }
 
-
-
-
-
-
-
-
-
 .main{
+    width: 100%;
+    height: 119vh;
     display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    gap: 10px;
-    height: 500px;
-    justify-content: center;
-    
-
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sub_main{
+    display: flex;
+    width: 100%;
+    height: 75vh;
+    /* height: inherit; */
+    justify-content: space-between;
 }
 .child{
     width:300px;
@@ -209,26 +209,55 @@ video{
 }
 
 .child.gauche{
-    width: 400px;
+    width: 55%;
     border-radius: 10px;
+    height: inherit;
+}
+.child.gauche img{
+    width: 100%;
+    /* height: 390px */
+    height: inherit;
 }
 .child.droite{
-    width:350px ;
+    width: 43%;
     display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+    /* gap: 10px; */
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
     flex-direction: column;
+    /* background-color: pink; */
+    height: inherit;
+}
+.droit1{
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+    /* background-color: #0AB3DA; */
+}
+.droit1 div{
+    width: 42%;
+}
+.droit1 div img{
+    /* height: 180px; */
+    width: 100%;
 }
 .chuldren{
     width: 200px;
-    height:195px;
+    height:fit-content;
     border-radius: 20px;
 }
-
-
-
-
-
+.down{
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+}
+.down_child{
+    width: 20%;
+}
+.down_child img{
+    border-radius: 20px;
+    width: 90%;
+}
 
 .container1 {
     padding: 70px;
@@ -251,7 +280,6 @@ video{
 .left, .right {
     width: 50%;
     padding: 20px;
-    box-sizing: border-box;
 }
 
 .left img {
@@ -270,7 +298,6 @@ video{
 .column {
     width: 33.33%;
     padding: 20px;
-    box-sizing: border-box;
 }
 
 .column h2 {
