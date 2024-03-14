@@ -1,0 +1,339 @@
+body{
+    padding: 20px;
+    margin: 20px;
+    
+}
+section span{
+
+    font-size: 20px;
+    
+    
+}
+section{
+    text-align: center;
+}
+section h1{
+    font-size: 70px;
+   line-height: 0em;  
+}
+
+section button{
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: violet;
+    font-size: 15px;
+    cursor: pointer;
+    border-width: 1px;
+    border-color:violet;
+}
+.content-button{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+.one button{
+    padding: 20px 30px;
+    background-color: #fff;
+    color: #000;
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: gray;
+}
+
+.two button{
+    padding: 20px 30px;
+    background-color: #6c157e;
+    margin-left: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.content-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+video{
+    border: 1px solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 700px;
+    height: 400px;
+}
+.contentp p{
+    font-size: 40px;
+    
+}
+.rose{
+    color: rgb(159, 19, 66);
+}
+.jaune {
+    color: rgb(123, 123, 27);
+}
+.vert{
+    color: green;
+}
+
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+}
+.card{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: opx 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-content{
+    padding: 16px;
+
+}
+
+
+.card-content p{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.mission {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.mission span{
+    color: violet;
+}
+.mission h1{
+    line-height: 0px;
+}
+
+
+.pablo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    gap: 40px;
+    height: 400px;
+    justify-content: center;
+    margin: 30px 0px 30px 0px;
+    border-radius: 20px;
+    background-color: #B7B7B5;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    padding: auto;
+      
+    
+
+}
+.pablo1{
+    
+    width:50%;
+    height: 400px;
+    
+    
+    
+}
+.pablo span{
+    color: #723cbd;
+    font-size: 20px;
+}
+.pablo h1{
+    font-size: 50px;
+}
+.pablo1.gauche img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+.pablo1.droit{
+    
+    
+ 
+}
+
+.pablo1.droit img{
+   
+   
+}
+
+.para h1{
+    margin-top: 50px;
+   padding-left: 150px;
+}
+
+
+
+
+
+
+
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 10px;
+    height: 500px;
+    justify-content: center;
+    
+
+}
+.child{
+    width:300px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.child img{
+    border-radius: 20px;
+}
+
+.child.gauche{
+    width: 400px;
+    border-radius: 10px;
+}
+.child.droite{
+    width:350px ;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.chuldren{
+    width: 200px;
+    height:195px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+.container1 {
+    padding: 70px;
+    height: 100px;
+    width: 200px;
+    background-color: #f5f5f5;
+}
+
+
+
+
+
+  
+
+  .containe {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left, .right {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    background-image: url("img/livre_.webp");
+    background-size: cover;
+}
+
+.right {
+    display: flex;
+    text-align: center;
+}
+
+.column {
+    width: 33.33%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.column h2 {
+    
+    margin: 0 0 10px;
+}
+
+.column p {
+    margin: 0;
+    font-size: 1.2rem;
+    
+}
+
+
+.formulaire{
+    display: flex;
+    border: 2px solid #0AB3DA;
+    height:500px ;
+    width: 350px;
+    flex-direction:column;
+    padding: 20px;
+    gap: 30px;
+    border-radius: 20px;
+    
+}
+.classe{
+    
+    border: 0.5px  ;
+    border-radius: 40px;
+    height: 30px ;
+    padding-top: 10px;
+    background-color: #c9c5c5;
+    color: #666;
+    padding-left: 5px;
+}
+.formulaire span{
+    padding-left: 20px;
+}
+.classe.seul{
+    background-color: #FA88AA;
+    color: #000;
+}
+.formulaire button{
+    border: none;
+    border-radius: 15px;
+    background-color: #8961C0;
+    height: 35px;
+}
+.im{
+    margin-top: 30px;
+    width: 100%;
+    height: 500px;
+    background-image: url("img/img_fin.webp");
+    background-size: cover;
+    padding-top: 60px;
+}
+
+.im h1{
+    color: #FEE650;
+    font-size: 80px;
+    margin-bottom: 500px;
+}
+
+
+
+
